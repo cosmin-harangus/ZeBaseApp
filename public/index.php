@@ -5,12 +5,15 @@ ini_set('display_errors','on');
 
 date_default_timezone_set('Europe/Helsinki');
 
+# Define base path
+defined('BASE_PATH')
+    || define('BASE_PATH', dirname(__DIR__) );
 # Define application environment
 defined('APPLICATION_ENV')
     || define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'production'));
 
 # Set up autoloading for the Zend Framework and ProjectQuery
-require_once dirname(__DIR__) . '/vendor/ZendFramework/library/Zend/Loader/AutoloaderFactory.php';
+require_once dirname(BASE_PATH) . '/vendor/ZendFramework2/library/Zend/Loader/AutoloaderFactory.php';
 $loader = Zend\Loader\AutoloaderFactory::factory(array('Zend\Loader\StandardAutoloader' => array()));
 
 switch(APPLICATION_ENV){

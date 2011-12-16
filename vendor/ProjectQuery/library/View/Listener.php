@@ -65,7 +65,7 @@ class Listener implements ListenerAggregate
 
     public function registerStaticListeners(StaticEventCollection $events, $locator)
     {
-        $ident   = 'Pq\Controller\ActionController';
+        $ident   = 'Zend\Mvc\Controller\ActionController';
         $handler = $events->attach($ident, 'dispatch', array($this, 'renderView'), -50);
         $this->staticListeners[] = array($ident, $handler);
         

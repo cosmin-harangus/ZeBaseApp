@@ -2,7 +2,7 @@
 return array(
     'module_paths' => array(
         realpath(dirname(__DIR__) . '/module'),
-        realpath(dirname(__DIR__) . '/vendor'),
+//        realpath(dirname(__DIR__) . '/vendor'),
     ),
     'modules' => array(
         'Home',
