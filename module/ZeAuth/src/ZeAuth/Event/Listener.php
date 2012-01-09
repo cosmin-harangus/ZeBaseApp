@@ -1,12 +1,15 @@
 <?php
 namespace ZeAuth\Event;
 
+//GLOBAL REQUIREMENTS
 use ArrayAccess,
     Zend\Mvc\MvcEvent,
     Zend\EventManager\EventCollection,
     Zend\EventManager\ListenerAggregate,
     Zend\Authentication\Storage\Session as AuthenticationSession,
-    Zend\Authentication\Result as AuthenticationResult;
+    Zend\Authentication\Result as AuthenticationResult,
+//CLOSED REQUIREMENTS
+    ZeAuth\Module;
 
 class Listener implements ListenerAggregate
 {
@@ -49,8 +52,20 @@ class Listener implements ListenerAggregate
 
         if ($matchedRoute){
             $routeName = $matchedRoute->getMatchedRouteName();
-            //@todo: If there are no restricted routes set then restrict all
-            if (strpos($routeName,'ze_auth')==0){
+            $restrictedRoutes = Module::getOption('restricted_routes');
+            $unrestrictedRoutes = Module::getOption('unrestricted_routes');
+            // Flatten the list of restricted routes
+            $_restricted = array();
+            foreach($restrictedRoutes->toArray() as $routes){
+                $_restricted = array_merge($_restricted, $routes);
+            }
+            // Flatten the list of unrestricted routes
+            $_unrestricted = array();
+            foreach($unrestrictedRoutes->toArray() as $routes){
+                $_unrestricted = array_merge($_unrestricted, $routes);
+            }
+            // Skip unrestricted routes
+            if (!in_array($routeName, $_restricted) || in_array($routeName, $_unrestricted)){
                 return;
             }
 

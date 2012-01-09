@@ -2,7 +2,9 @@
 namespace ZeAuth\Controller;
 
 use Zend\Mvc\Controller\ActionController,
-    ZeAuth\Service\Auth;
+
+    ZeAuth\Service\Auth,
+    ZeAuth\Module;
 
 class AuthController extends ActionController
 {
@@ -13,6 +15,7 @@ class AuthController extends ActionController
     public function indexAction()
     {
         // Get the login form and authentication service
+        $homeRoute = Module::getOption('home_route');
         $form = $this->getLocator()->get('ze_auth_form_login');
         $service = $this->getLocator()->get('ze_auth_service_auth');
         // If the form is valid
@@ -22,7 +25,7 @@ class AuthController extends ActionController
                 $data = $this->request->post()->toArray();
                 $result = $service->login($data);
                 if ( $result === true ){
-                    $this->redirect()->toRoute('home');
+                    $this->redirect()->toRoute($homeRoute);
                 } else {
                     foreach($result as $key=>$error){
                         $form->$key->addError($error);
@@ -46,4 +49,5 @@ class AuthController extends ActionController
         $service->logout();
         $this->redirect()->toRoute('ze_auth');
     }
+
 }

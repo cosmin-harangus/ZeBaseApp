@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b60ce561-2e05-48fc-b746-179315545e93" name="Default" comment="" />
+    <list default="true" id="b60ce561-2e05-48fc-b746-179315545e93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php" afterPath="$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" afterPath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" afterPath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" afterPath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" />
+    </list>
     <ignored path="projectquery.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +29,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Listener.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Listener.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="45" selection-start="2161" selection-end="2161" vertical-scroll-proportion="0.66">
+            <state line="76" column="0" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Module.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/ZeAuth/Module.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="8" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ze_auth.config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/autoload/ze_auth.config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="15" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Core/config/module.config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/ZeAuth/config/module.config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="45" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="46" selection-start="1588" selection-end="1588" vertical-scroll-proportion="1.34">
               <folding />
             </state>
           </provider>
@@ -42,27 +103,36 @@
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
     <option name="UPDATE_CHANGES_POLICY" value="STASH" />
   </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Exception.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Model/User.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Form/Login.php" />
-        <option value="$PROJECT_DIR$/public/css/default.css" />
         <option value="$PROJECT_DIR$/module/ZeAuth/views/auth/index.phtml" />
         <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Mapper.php" />
         <option value="$PROJECT_DIR$/module/ZeAuth/views/layouts/layout.phtml" />
         <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Crypt.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/Module.php" />
         <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model.php" />
         <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Mapper/User.php" />
         <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model/User.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Service/Auth.php" />
+        <option value="$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" />
         <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" />
+        <option value="$PROJECT_DIR$/module/Core/config/autoload/ze_auth.config.php" />
+        <option value="$PROJECT_DIR$/config/application.config.php" />
+        <option value="$PROJECT_DIR$/module/Core/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/ZeAuth/Module.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="." />
+      <path value="G:\#local\vendor\ZendFramework2\library" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -130,6 +200,244 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -156,11 +464,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\#local\projectquery\config\autoload" />
       <recent name="G:\#local\projectquery\module\ZeAuth\src\ZeAuth\Db\Mapper" />
       <recent name="G:\#local\projectquery\module\ZeAuth\views\auth" />
       <recent name="G:\#local\projectquery\module\ZeAuth\src\ZeAuth\Event" />
       <recent name="G:\#local\projectquery\module\ZeAuth\views" />
-      <recent name="G:\#local\projectquery\module\ZeAuth\src\ZeAuth\Controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,7 +561,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49715677" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -320,46 +628,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Authentication/Result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="20" selection-start="2287" selection-end="2287" vertical-scroll-proportion="-0.78797996" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="8" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.36894825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Form/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="292" selection-end="327" vertical-scroll-proportion="-0.34056762" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/EventManager/Filter/FilterIterator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="43" selection-start="2522" selection-end="2522" vertical-scroll-proportion="1.936561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/EventManager/Filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="42" selection-start="1586" selection-end="1601" vertical-scroll-proportion="0.1769616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/EventManager/FilterChain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.6894825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="216" selection-end="216" vertical-scroll-proportion="0.312187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Form/Element.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1539" column="28" selection-start="40682" selection-end="40690" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Form/Form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2355" column="20" selection-start="64873" selection-end="64873" vertical-scroll-proportion="-28.15529" />
@@ -373,16 +641,6 @@
     <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="23" selection-start="631" selection-end="631" vertical-scroll-proportion="0.7378965" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="542" selection-end="542" vertical-scroll-proportion="0.34056762" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="72" selection-start="1297" selection-end="1297" vertical-scroll-proportion="1.1068448" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
@@ -399,7 +657,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="45" selection-start="2161" selection-end="2161" vertical-scroll-proportion="0.66">
+        <state line="76" column="0" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/local.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/ze_auth.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Core/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZeAuth/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="70" selection-start="783" selection-end="783" vertical-scroll-proportion="0.55025554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZeAuth/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="8" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="46" selection-start="1588" selection-end="1588" vertical-scroll-proportion="1.34">
           <folding />
         </state>
       </provider>

@@ -10,4 +10,8 @@ class IndexController extends ActionController
     {
         return array();
     }
+    public function restrictedAction()
+    {
+        return array();
+    }
 }
