@@ -3,7 +3,7 @@ return array(
     'ze_auth' => array(
         'user_model_class'          => 'ZeAuth\Model\User',
         'identity_type'             => 'username', //username, email_address, both
-        'remember_me'               => false,//60*60*24*2,
+        'remember_me'               => 60*60*24*2,
         'enable_display_name'       => false,
         'require_activation'        => true,
         'login_after_registration'  => true,
@@ -22,7 +22,7 @@ return array(
             'options' => array(
                 'route' => '/auth',
                 'defaults' => array(
-                    'controller' => 'auth',
+                    'controller' => 'ze_auth',
                 ),
             ),
             'may_terminate' => true,
@@ -32,7 +32,7 @@ return array(
                     'options' => array(
                         'route' => '/logout',
                         'defaults' => array(
-                            'controller' => 'auth',
+                            'controller' => 'ze_auth',
                             'action'     => 'logout',
                         ),
                     ),
@@ -42,7 +42,7 @@ return array(
                     'options' => array(
                         'route' => '/register',
                         'defaults' => array(
-                            'controller' => 'auth',
+                            'controller' => 'ze_auth',
                             'action'     => 'register',
                         ),
                     ),
@@ -53,7 +53,7 @@ return array(
     'di' => array(
         'instance' => array(
             'alias' => array(
-                'auth'                  => 'ZeAuth\Controller\AuthController',
+                'ze_auth'               => 'ZeAuth\Controller\AuthController',
                 'ze_auth_form_login'    => 'ZeAuth\Form\Login',
                 'ze_auth_service_auth'  => 'ZeAuth\Service\Auth',
 
@@ -61,16 +61,14 @@ return array(
                 'ze_auth_model_user'    => 'ZeAuth\Db\Model\User',
                 'ze_auth_crypt'         => 'ZeAuth\Crypt',
                 'ze_auth_db'            => 'Zend\Db\Adapter\PdoMysql',
+                'view'=>'ZeTwig\View\Renderer'
             ),
-            'Zend\Db\Adapter\PdoMysql' => array(
+            'ZeTwig\View\Loader'=>array(
                 'parameters' => array(
-                    'config' => array(
-                        'host' => 'localhost',
-                        'username' => 'root',
-                        'password' => '',
-                        'dbname' => 'projectquery',
-                    ),
-                ),
+                    'paths'=> array(
+                        'core'=>__DIR__.'/../views/'
+                    )
+                )
             ),
             'Zend\View\PhpRenderer' => array(
                 'parameters' => array(
@@ -79,26 +77,26 @@ return array(
                             'ze_auth' => __DIR__ . '/../views',
                         ),
                     ),
-//                    'broker' => 'Zend\View\HelperBroker',
+                    'broker' => 'Zend\View\HelperBroker',
                 ),
             ),
-//            'Zend\View\HelperBroker' => array(
-//                'parameters' => array(
-//                    'loader' => 'Zend\View\HelperLoader',
-//                ),
-//            ),
-//            'Zend\View\HelperLoader' => array(
-//                'parameters' => array(
-//                    'map' => array(
-//                        'user'        => 'ZeAuth\View\Helper\User',
-//                    ),
-//                ),
-//            ),
-//            'ZeAuth\View\Helper\User' => array(
-//                'parameters' => array(
-//
-//                ),
-//            ),
+            'Zend\View\HelperBroker' => array(
+                'parameters' => array(
+                    'loader' => 'Zend\View\HelperLoader',
+                ),
+            ),
+            'Zend\View\HelperLoader' => array(
+                'parameters' => array(
+                    'map' => array(
+                        'user'        => 'ZeAuth\View\Helper\User',
+                    ),
+                ),
+            ),
+            'ZeAuth\View\Helper\User' => array(
+                'parameters' => array(
+
+                ),
+            ),
         ),
     ),
 );

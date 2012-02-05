@@ -26,7 +26,7 @@ class Module implements AutoloaderProvider
         $events = StaticEventManager::getInstance();
         $events->attach('bootstrap', 'bootstrap', array($this, 'initListener'), self::PRIORITY);
     }
-
+    
     /**
      * Return an array with autoload options
      * @return array

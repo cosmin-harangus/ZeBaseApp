@@ -10,4 +10,18 @@ return array(
             'core'  =>  array('default')
         ),
     ),
+    'di' => array(
+        'instance'=>array(
+            'Zend\Db\Adapter\PdoMysql' => array(
+                'parameters' => array(
+                    'config' => array(
+                        'host' => 'localhost',
+                        'username' => 'root',
+                        'password' => 'root',
+                        'dbname' => 'projectquery',
+                    ),
+                ),
+            ),
+        )
+    )
 );

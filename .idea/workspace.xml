@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b60ce561-2e05-48fc-b746-179315545e93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Environment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/HelperFunction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Renderer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/views/auth/index.phtml" afterPath="$PROJECT_DIR$/module/ZeAuth/views/ze_auth/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php" afterPath="$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" afterPath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/Module.php" afterPath="$PROJECT_DIR$/module/Core/Module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/config/module.config.php" afterPath="$PROJECT_DIR$/module/Core/config/module.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/views/error/index.phtml" afterPath="$PROJECT_DIR$/module/Core/views/error/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/views/layouts/layout.phtml" afterPath="$PROJECT_DIR$/module/Core/views/layouts/layout.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/Module.php" afterPath="$PROJECT_DIR$/module/ZeAuth/Module.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" afterPath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" afterPath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" afterPath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Service/Auth.php" afterPath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Service/Auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/default.css" afterPath="$PROJECT_DIR$/public/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <ignored path="projectquery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,64 +42,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Listener.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php">
+      <file leaf-file-name="Environment.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Environment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
+            <state line="39" column="4" selection-start="965" selection-end="1085" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Renderer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Renderer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="50" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelperFunction.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/HelperFunction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="47" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/ZeTwig/config/module.config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="14" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Core/views/layouts/layout.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="19" selection-start="354" selection-end="354" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Listener.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Listener.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="5" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.61576355">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Module.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ZeAuth/Module.php">
+        <entry file="file://$PROJECT_DIR$/module/ZeTwig/Module.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="8" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0">
+            <state line="76" column="55" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ze_auth.config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/autoload/ze_auth.config.php">
+      <file leaf-file-name="Module.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Core/Module.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="15" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Core/config/module.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ZeAuth/config/module.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="45" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="46" selection-start="1588" selection-end="1588" vertical-scroll-proportion="1.34">
+            <state line="76" column="61" selection-start="2138" selection-end="2306" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,22 +131,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/module/ZeAuth/views/auth/index.phtml" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Mapper.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/views/layouts/layout.phtml" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Crypt.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Mapper/User.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model/User.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Service/Auth.php" />
-        <option value="$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" />
-        <option value="$PROJECT_DIR$/module/Core/config/autoload/ze_auth.config.php" />
+        <option value="$PROJECT_DIR$/module/Core/Module.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/module/ZeTwig/autoload/autoload_classmap.php" />
         <option value="$PROJECT_DIR$/config/application.config.php" />
         <option value="$PROJECT_DIR$/module/Core/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/Module.php" />
+        <option value="$PROJECT_DIR$/module/Core/views/error/index.phtml" />
+        <option value="$PROJECT_DIR$/module/ZeAuth/views/ze_auth/index.phtml" />
+        <option value="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Loader.php" />
+        <option value="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Listener.php" />
+        <option value="$PROJECT_DIR$/module/ZeTwig/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Environment.php" />
+        <option value="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/HelperFunction.php" />
+        <option value="$PROJECT_DIR$/module/ZeTwig/Module.php" />
+        <option value="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Renderer.php" />
+        <option value="$PROJECT_DIR$/module/Core/views/layouts/layout.phtml" />
       </list>
     </option>
   </component>
@@ -135,10 +157,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="786" />
+    <option name="y" value="24" />
+    <option name="width" value="1274" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -182,12 +203,55 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="projectquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP 5.3.8-ZS5.5.0" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP 5.3.8-ZS5.5.0" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -197,6 +261,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -228,6 +306,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ZeTwig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeTwig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeTwig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeTwig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ZeAuth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -250,11 +398,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZeAuth" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,15 +420,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ZeAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,11 +486,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="error" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,7 +568,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,7 +630,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,44 +663,29 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autoload" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.PHP" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PublishConfig" serverName="ProjectQuery" serverId="c5e4ec2b-1959-431e-a313-20a5a6cf393c">
-    <servers>
-      <server id="c5e4ec2b-1959-431e-a313-20a5a6cf393c">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
-  </component>
+  <component name="PublishConfig" serverName="ProjectQuery" serverId="c5e4ec2b-1959-431e-a313-20a5a6cf393c" />
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module" />
       <recent name="G:\#local\projectquery\config\autoload" />
       <recent name="G:\#local\projectquery\module\ZeAuth\src\ZeAuth\Db\Mapper" />
       <recent name="G:\#local\projectquery\module\ZeAuth\views\auth" />
       <recent name="G:\#local\projectquery\module\ZeAuth\src\ZeAuth\Event" />
-      <recent name="G:\#local\projectquery\module\ZeAuth\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -517,7 +734,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
-    <configuration useDefault="true">C:\Users\Cosmin\AppData\Roaming\Subversion</configuration>
+    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -549,24 +766,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
+    <frame x="0" y="24" width="1274" height="739" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49715677" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20308693" sideWeight="0.67145133" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25811687" sideWeight="0.9542683" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49715677" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262195" sideWeight="0.49715677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -628,99 +846,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Form/Form.php">
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2355" column="20" selection-start="64873" selection-end="64873" vertical-scroll-proportion="-28.15529" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Mapper/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="53" selection-end="53" vertical-scroll-proportion="0.085141905" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="631" selection-end="631" vertical-scroll-proportion="0.7378965" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="70" selection-start="8821" selection-end="8827" vertical-scroll-proportion="0.029010238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Service/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="8" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.20666666">
+        <state line="12" column="0" selection-start="297" selection-end="398" vertical-scroll-proportion="0.2955665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php">
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/vendor/Twig/FunctionInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
+        <state line="18" column="10" selection-start="364" selection-end="364" vertical-scroll-proportion="0.38423645">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+        <state line="18" column="15" selection-start="373" selection-end="373" vertical-scroll-proportion="0.45302013">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/local.config.php">
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="27" column="21" selection-start="665" selection-end="665" vertical-scroll-proportion="0.64285713">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/ze_auth.config.php">
+    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Loader/PluginBroker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+        <state line="58" column="20" selection-start="1658" selection-end="1658" vertical-scroll-proportion="-2.9899328">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.config.php">
+    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/View/HelperBroker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+        <state line="80" column="28" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Core/config/module.config.php">
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+        <state line="24" column="14" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/config/module.config.php">
+    <entry file="file://$PROJECT_DIR$/module/Core/src/Core/View/Listener.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.8078818">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/HelperFunction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="783" selection-end="783" vertical-scroll-proportion="0.55025554">
+        <state line="36" column="47" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/Module.php">
+    <entry file="file://$PROJECT_DIR$/module/Core/Module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="8" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0">
+        <state line="76" column="61" selection-start="2138" selection-end="2306" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php">
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/Module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="46" selection-start="1588" selection-end="1588" vertical-scroll-proportion="1.34">
+        <state line="76" column="55" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Environment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="4" selection-start="965" selection-end="1085" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Renderer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="50" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZeAuth/views/layouts/layout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="75" selection-start="883" selection-end="915" vertical-scroll-proportion="0.64102566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Core/views/layouts/layout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="354" selection-end="354" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Listener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="5" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.61576355">
           <folding />
         </state>
       </provider>

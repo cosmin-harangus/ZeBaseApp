@@ -7,17 +7,13 @@ return array(
             'alias' => array(
                 'index' => 'Core\Controller\IndexController',
                 'error' => 'Core\Controller\ErrorController',
-                'view'  => 'Zend\View\PhpRenderer',
             ),
-            'Zend\View\PhpRenderer' => array(
+            'ZeTwig\View\Loader'=>array(
                 'parameters' => array(
-                    'resolver' => 'Zend\View\TemplatePathStack',
-                    'options'  => array(
-                        'script_paths' => array(
-                            'application' => __DIR__ . '/../views',
-                        ),
-                    ),
-                ),
+                    'paths'=> array(
+                        'core'=>__DIR__.'/../views/'
+                    )
+                )
             ),
         ),
     ),

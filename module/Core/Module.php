@@ -69,12 +69,12 @@ class Module implements AutoloaderProvider
 
         $di     = $app->getLocator();
         $view   = $di->get('view');
-        $url    = $view->plugin('url');
-        $url->setRouter($app->getRouter());
+//        $url    = $view->plugin('url');
+//        $url->setRouter($app->getRouter());
 
-        $view->plugin('headTitle')->setSeparator(' - ')
-                                  ->setAutoEscape(false)
-                                  ->append('ProjectQuery');
+//        $view->plugin('headTitle')->setSeparator(' - ')
+//                                  ->setAutoEscape(false)
+//                                  ->append('ProjectQuery');
 
         $this->view = $view;
         return $view;

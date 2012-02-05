@@ -7,8 +7,17 @@ chdir(dirname(__DIR__));
 date_default_timezone_set(date_default_timezone_get());
 
 require_once (getenv('ZF2_PATH') ?: dirname(BASE_PATH).'/vendor/ZendFramework2/library') . '/Zend/Loader/AutoloaderFactory.php';
-Zend\Loader\AutoloaderFactory::factory(array('Zend\Loader\StandardAutoloader' => array()));
+Zend\Loader\AutoloaderFactory::factory(array(
+    'Zend\Loader\StandardAutoloader' => array(
+        'namespaces' => array(
+            'Ze' => BASE_PATH.'/vendor/Ze/',
+        ),
+        'prefixes' =>array(
+            'Twig' =>  BASE_PATH.'/vendor/Twig/',
+        )
+    ),
 
+));
 $appConfig = include 'config/application.config.php';
 
 error_reporting(E_ALL);

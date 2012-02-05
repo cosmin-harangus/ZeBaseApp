@@ -1,22 +1,22 @@
 <h1>An error occurred</h1>
-<h2><?php echo $this->message ?></h2>
+<h2>{{ message }}</h2>
 
-<?php if (isset($this->display_exceptions) && $this->display_exceptions): ?>
+{% if isset(display_exceptions) and display_exceptions %}
 
-<?php if(isset($this->exception) && $this->exception instanceof Exception): ?>
+{% if isset(exception) %}
 
 <h3>Exception information:</h3>
 <p>
     <h4>Message:</h4>
-    <pre><?php echo $this->exception->getMessage() ?></pre>
+    <pre>{{ exception.getMessage }}</pre>
     <h4>Stack trace:</h4>
-    <pre><?php echo $this->exception->getTraceAsString() ?></pre>
+    <pre>{{ exception.getTraceAsString }}</pre>
 </p>
 
-<?php else: ?>
+{% else %}
 
 <h3>No Exception available</h3>
 
-<?php endif ?>
+{% endif %}
 
-<?php endif ?>
+{% endif %}
