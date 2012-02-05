@@ -2,25 +2,270 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b60ce561-2e05-48fc-b746-179315545e93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Environment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/HelperFunction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Loader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Renderer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/views/auth/index.phtml" afterPath="$PROJECT_DIR$/module/ZeAuth/views/ze_auth/index.phtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/CHANGELOG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/bin/create_pear_package.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/advanced.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/api.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/extensions.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/capitalize.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/convert_encoding.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/date.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/default.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/escape.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/format.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/join.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/json_encode.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/keys.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/length.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/lower.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/merge.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/nl2br.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/number_format.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/raw.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/replace.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/reverse.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/sort.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/striptags.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/title.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/upper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/filters/url_encode.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/attribute.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/block.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/constant.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/cycle.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/dump.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/parent.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/random.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/functions/range.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/hacking.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/intro.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/recipes.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/autoescape.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/block.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/do.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/extends.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/filter.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/flush.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/for.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/from.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/if.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/import.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/include.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/macro.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/raw.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/set.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/spaceless.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tags/use.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/templates.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/constant.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/defined.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/divisibleby.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/empty.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/even.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/null.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/odd.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/doc/tests/sameas.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/ext/twig/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/ext/twig/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/ext/twig/config.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/ext/twig/config.w32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/ext/twig/php_twig.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/ext/twig/twig.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/package.xml.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/AutoloaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/ErrorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/ExpressionParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Extension/CoreTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Extension/SandboxTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/FileCachingTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/exceptions/unclosed_tag.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/array.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/array_call.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/binary.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/comparison.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/dotdot.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/grouping.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/literals.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/magic_call.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/method_call.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/postfix.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/strings.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/ternary_operator.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/expressions/unary.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/convert_encoding.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/date.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/date_default_format.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/default.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/dynamic_filter.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/escape.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/escape_non_supported_charset.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/force_escape.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/format.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/join.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/json_encode.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/length.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/merge.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/nl2br.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/number_format.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/number_format_default.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/replace.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/sort.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/filters/special_chars.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/functions/attribute.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/functions/constant.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/functions/cycle.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/functions/dump.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/functions/dynamic_function.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/functions/special_chars.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/macros/with_filters.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/regression/empty_token.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/blocks.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/double_escaping.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/functions.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/literal.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/nested.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/objects.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/raw.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/strategy.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/type.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/with_filters.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/with_filters_arguments.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/autoescape/with_pre_escape_filters.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/block/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/block/special_chars.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/filter/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/filter/json_encode.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/filter/multiple.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/filter/nested.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/filter/with_for_tag.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/filter/with_if_tag.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/condition.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/context.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/else.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/inner_variables.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/keys.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/keys_and_values.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/loop_context.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/loop_context_local.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/nested_else.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/objects.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/objects_countable.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/recursive.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/for/values.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/from.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/if/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/if/expression.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/include/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/include/expression.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/include/ignore_missing.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/include/only.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/include/template_instance.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/include/templates_as_array.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/include/with_variables.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/conditional.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/dynamic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/extends_as_array.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/multiple.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/nested_inheritance.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/parent.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/parent_change.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/parent_in_a_block.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/parent_isolation.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/parent_nested.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/parent_without_extends.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/parent_without_extends_but_traits.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/template_instance.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/inheritance/use.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/macro/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/macro/endmacro_name.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/macro/external.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/macro/from.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/macro/self_import.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/macro/special_chars.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/raw/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/set/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/set/capture.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/set/expression.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/spaceless/simple.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/special_chars.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/trim_block.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/use/aliases.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/use/basic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/use/deep.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/use/deep_empty.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/use/multiple.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tags/use/multiple_aliases.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tests/array.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tests/constant.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tests/defined.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tests/empty.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tests/even.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tests/in.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Fixtures/tests/odd.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/LexerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Loader/ArrayTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Loader/ChainTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Loader/FilesystemTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/AutoEscapeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/BlockReferenceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/BlockTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/DoTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/ArrayTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/AssignNameTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/AddTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/AndTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/ConcatTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/DivTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/FloorDivTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/ModTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/MulTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/OrTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Binary/SubTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/ConditionalTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/ConstantTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/FilterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/FunctionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/GetAttrTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/NameTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/ParentTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/TestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Unary/NegTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Unary/NotTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/Expression/Unary/PosTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/ForTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/IfTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/ImportTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/IncludeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/MacroTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/ModuleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/PrintTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/SandboxTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/SandboxedModuleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/SandboxedPrintTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/SetTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/SpacelessTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/Node/TextTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/NodeVisitor/OptimizerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/ParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/TemplateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/TokenStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/Twig/Tests/integrationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/__TwigArchive/test/bootstrap.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" afterPath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/Module.php" afterPath="$PROJECT_DIR$/module/Core/Module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/config/module.config.php" afterPath="$PROJECT_DIR$/module/Core/config/module.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/views/error/index.phtml" afterPath="$PROJECT_DIR$/module/Core/views/error/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/views/layouts/layout.phtml" afterPath="$PROJECT_DIR$/module/Core/views/layouts/layout.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/Module.php" afterPath="$PROJECT_DIR$/module/ZeAuth/Module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" afterPath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" afterPath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" afterPath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Service/Auth.php" afterPath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Service/Auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/default.css" afterPath="$PROJECT_DIR$/public/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <ignored path="projectquery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,7 +402,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="-776" />
     <option name="width" value="1274" />
     <option name="height" value="739" />
   </component>
@@ -766,15 +1011,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1274" height="739" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-776" width="1274" height="739" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49715677" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25811687" sideWeight="0.9542683" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25811687" sideWeight="0.9542683" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262195" sideWeight="0.49715677" order="7" side_tool="true" content_ui="tabs" />
@@ -846,20 +1091,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="297" selection-end="398" vertical-scroll-proportion="0.2955665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeTwig/vendor/Twig/FunctionInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="364" selection-end="364" vertical-scroll-proportion="0.38423645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="15" selection-start="373" selection-end="373" vertical-scroll-proportion="0.45302013">
