@@ -3,6 +3,7 @@ return array(
     'modules' => array(
         'ZeTwig',
         'Core',
+        'ZeAuth'
     ),
     'module_listener_options' => array( 
         'config_cache_enabled' => false,

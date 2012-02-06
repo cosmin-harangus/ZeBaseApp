@@ -25,13 +25,15 @@ use ArrayAccess,
  */
 class Listener implements ListenerAggregate
 {
+    const TPL_EXTENSION = '.html';
     protected $layout;
     protected $listeners = array();
     protected $staticListeners = array();
     protected $view;
     protected $displayExceptions = false;
 
-    public function __construct(ZendViewRenderer $renderer, $layout = 'layout.phtml')
+
+    public function __construct(ZendViewRenderer $renderer, $layout = 'layout')
     {
         $this->view   = $renderer;
         $this->layout = $layout;
@@ -90,16 +92,16 @@ class Listener implements ListenerAggregate
         $routeMatch = $e->getRouteMatch();
         $controller = $routeMatch->getParam('controller', 'index');
         $action     = $routeMatch->getParam('action', 'index');
-        $script     = $controller . '/' . $action . '.phtml';
+        $script     = $controller . '/' . $action;
 
         $vars       = $e->getResult();
         if (is_scalar($vars)) {
             $vars = array('content' => $vars);
-        } elseif (is_object($vars) && !$vars instanceof ArrayAccess) {
+        } elseif (is_object($vars)) {
             $vars = (array) $vars;
         }
 
-        $content    = $this->view->render($script, $vars);
+        $content    = $this->view->render($script . self::TPL_EXTENSION, $vars);
 
         $e->setParam('content', $content);
         return $content;
@@ -119,7 +121,7 @@ class Listener implements ListenerAggregate
         $vars = $e->getResult();
         if (is_scalar($vars)) {
             $vars = array('content' => $vars);
-        } elseif (is_object($vars) && !$vars instanceof ArrayAccess) {
+        } elseif (is_object($vars)) {
             $vars = (array) $vars;
         }
 
@@ -127,7 +129,7 @@ class Listener implements ListenerAggregate
             $vars['content'] = $contentParam;
         }
 
-        $layout   = $this->view->render($this->layout, $vars);
+        $layout   = $this->view->render($this->layout . self::TPL_EXTENSION, $vars);
         $response->setContent($layout);
         return $response;
     }
@@ -151,7 +153,7 @@ class Listener implements ListenerAggregate
             'display_exceptions' => $this->displayExceptions(),
         );
 
-        $content = $this->view->render('error/404.phtml', $vars);
+        $content = $this->view->render('error/404' . self::TPL_EXTENSION, $vars);
 
         $e->setResult($content);
 
@@ -191,7 +193,7 @@ class Listener implements ListenerAggregate
                 break;
         }
 
-        $content = $this->view->render('error/index.phtml', $vars);
+        $content = $this->view->render('error/index' . self::TPL_EXTENSION, $vars);
 
         $e->setResult($content);
 

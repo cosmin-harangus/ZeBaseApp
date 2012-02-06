@@ -10,6 +10,8 @@
 namespace ZeTwig\View;
 
 use Zend\View\Renderer as ViewRenderer,
+    Zend\Loader\Pluggable,
+    Zend\Filter\FilterChain,
     ZeTwig\View\Environment;
 
 /**
@@ -17,30 +19,24 @@ use Zend\View\Renderer as ViewRenderer,
  * @package ZeTwig
  * @author Cosmin Harangus <cosmin@zendexperts.com>
  */
-class Renderer implements ViewRenderer
+class Renderer implements ViewRenderer, Pluggable
 {
+    /**
+     * @var null|\ZeTwig\View\Environment
+     */
     private $_environment = null;
     /**
-     * @param \ZeTwig\View\Environment $environment
+     * @var null
      */
-    public function __construct(Environment $environment)
-    {
-        $this->_environment = $environment;
-    }
+    private $_filterChain = null;
 
     /**
-     * Return the template engine object, if any
-     *
-     * @return \ZeTwig\View\Renderer
+     * @param \ZeTwig\View\Environment $environment
+     * @param array $config Configuration options
      */
-    public function getEngine()
+    public function __construct(Environment $environment, $config = array())
     {
-        return $this;
-    }
-
-    public function plugin($name)
-    {
-        return $this->_environment->plugin($name);
+        $this->_environment = $environment;
     }
 
     /**
@@ -53,6 +49,79 @@ class Renderer implements ViewRenderer
     public function render($name, $context = array())
     {
         $output = $this->_environment->render($name,$context);
-        return $output;
+        return $this->getFilterChain()->filter($output);
+    }
+
+
+    #GETTERS AND SETTERS
+
+
+    /**
+     * Return the template engine object, if any
+     *
+     * @return \ZeTwig\View\Renderer
+     */
+    public function getEngine()
+    {
+        return $this;
+    }
+
+    /**
+     * Get plugin broker instance
+     *
+     * @return Zend\Loader\Broker
+     */
+    public function getBroker()
+    {
+        $this->_environment->getBroker();
+    }
+
+    /**
+     * Set plugin broker instance
+     *
+     * @param  string|Broker $broker Plugin broker to load plugins
+     * @return Zend\Loader\Pluggable
+     */
+    public function setBroker($broker)
+    {
+        $this->_environment->setBroker($broker);
+        return $this;
+    }
+
+    /**
+     * Get plugin instance
+     *
+     * @param  string     $name  Name of plugin to return
+     * @param  null|array $options Options to pass to plugin constructor (if not already instantiated)
+     * @return mixed
+     */
+    public function plugin($name, array $options = null)
+    {
+        return $this->_environment->plugin($name, $options);
+    }
+
+    /**
+     * Set filter chain
+     *
+     * @param \Zend\Filter\FilterChain $filters
+     * @return Renderer
+     */
+    public function setFilterChain(FilterChain $filters)
+    {
+        $this->_filterChain = $filters;
+        return $this;
+    }
+
+    /**
+     * Retrieve filter chain for post-filtering script content
+     *
+     * @return FilterChain
+     */
+    public function getFilterChain()
+    {
+        if (null === $this->_filterChain) {
+            $this->setFilterChain(new FilterChain());
+        }
+        return $this->_filterChain;
     }
 }

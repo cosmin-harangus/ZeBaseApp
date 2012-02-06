@@ -10,7 +10,6 @@ return array(
                 'parameters' => array(
                     'environment'=>'ZeTwig\View\Environment',
                 ),
-
             ),
             'ZeTwig\View\Environment'=>array(
                 'parameters' => array(

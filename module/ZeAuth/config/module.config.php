@@ -66,7 +66,7 @@ return array(
             'ZeTwig\View\Loader'=>array(
                 'parameters' => array(
                     'paths'=> array(
-                        'core'=>__DIR__.'/../views/'
+                        'ze_auth'=>__DIR__.'/../views/'
                     )
                 )
             ),

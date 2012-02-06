@@ -3,20 +3,36 @@
 namespace Core;
 
 use Zend\Module\Manager,
+    Zend\EventManager\Event,
     Zend\EventManager\StaticEventManager,
     Zend\Module\Consumer\AutoloaderProvider;
 
 class Module implements AutoloaderProvider
 {
-    protected $view;
-    protected $viewListener;
 
+    /**
+     * Start point for any module
+     * @param \Zend\Module\Manager $moduleManager
+     */
     public function init(Manager $moduleManager)
     {
         $events = StaticEventManager::getInstance();
-        $events->attach('bootstrap', 'bootstrap', array($this, 'initializeView'), 100);
+        $events->attach('bootstrap', 'bootstrap', array($this, 'initializeCore'), 100);
     }
 
+    /**
+     * Initialize the core module
+     * @param $event
+     */
+    public function initializeCore(Event $event)
+    {
+        $app          = $event->getParam('application');
+    }
+
+    /**
+     * Get module autoloader configuration
+     * @return array
+     */
     public function getAutoloaderConfig()
     {
         return array(
@@ -31,52 +47,13 @@ class Module implements AutoloaderProvider
         );
     }
 
+    /**
+     * Get core configuration array
+     * @return array
+     */
     public function getConfig()
     {
         return include __DIR__ . '/config/module.config.php';
     }
-    
-    public function initializeView($e)
-    {
-        $app          = $e->getParam('application');
-        $locator      = $app->getLocator();
-        $config       = $e->getParam('config');
-        $view         = $this->getView($app);
-        $viewListener = $this->getViewListener($view, $config);
-        $app->events()->attachAggregate($viewListener);
-        $events       = StaticEventManager::getInstance();
-        $viewListener->registerStaticListeners($events, $locator);
-    }
 
-    protected function getViewListener($view, $config)
-    {
-        if ($this->viewListener instanceof View\Listener) {
-            return $this->viewListener;
-        }
-
-        $viewListener       = new View\Listener($view, $config->layout);
-        $viewListener->setDisplayExceptionsFlag($config->display_exceptions);
-
-        $this->viewListener = $viewListener;
-        return $viewListener;
-    }
-
-    protected function getView($app)
-    {
-        if ($this->view) {
-            return $this->view;
-        }
-
-        $di     = $app->getLocator();
-        $view   = $di->get('view');
-//        $url    = $view->plugin('url');
-//        $url->setRouter($app->getRouter());
-
-//        $view->plugin('headTitle')->setSeparator(' - ')
-//                                  ->setAutoEscape(false)
-//                                  ->append('ProjectQuery');
-
-        $this->view = $view;
-        return $view;
-    }
 }
