@@ -10,18 +10,39 @@ return array(
             'core'  =>  array('default')
         ),
     ),
-    'di' => array(
-        'instance'=>array(
-            'Zend\Db\Adapter\PdoMysql' => array(
-                'parameters' => array(
-                    'config' => array(
-                        'host' => 'localhost',
-                        'username' => 'root',
-                        'password' => 'root',
-                        'dbname' => 'projectquery',
+    'routes' => array(
+        'ze_auth' => array(
+            'type' => 'Literal',
+            'priority' => 1000,
+            'options' => array(
+                'route' => '/auth',
+                'defaults' => array(
+                    'controller' => 'ze_auth',
+                ),
+            ),
+            'may_terminate' => true,
+            'child_routes' => array(
+                'logout' => array(
+                    'type' => 'Literal',
+                    'options' => array(
+                        'route' => '/logout',
+                        'defaults' => array(
+                            'controller' => 'ze_auth',
+                            'action'     => 'logout',
+                        ),
+                    ),
+                ),
+                'register' => array(
+                    'type' => 'Literal',
+                    'options' => array(
+                        'route' => '/register',
+                        'defaults' => array(
+                            'controller' => 'ze_auth',
+                            'action'     => 'register',
+                        ),
                     ),
                 ),
             ),
-        )
-    )
+        ),
+    ),
 );

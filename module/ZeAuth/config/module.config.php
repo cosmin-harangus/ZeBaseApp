@@ -15,41 +15,6 @@ return array(
             'ze_auth'=>array('ze_auth')
         )
     ),
-    'routes' => array(
-        'ze_auth' => array(
-            'type' => 'Literal',
-            'priority' => 1000,
-            'options' => array(
-                'route' => '/auth',
-                'defaults' => array(
-                    'controller' => 'ze_auth',
-                ),
-            ),
-            'may_terminate' => true,
-            'child_routes' => array(
-                'logout' => array(
-                    'type' => 'Literal',
-                    'options' => array(
-                        'route' => '/logout',
-                        'defaults' => array(
-                            'controller' => 'ze_auth',
-                            'action'     => 'logout',
-                        ),
-                    ),
-                ),
-                'register' => array(
-                    'type' => 'Literal',
-                    'options' => array(
-                        'route' => '/register',
-                        'defaults' => array(
-                            'controller' => 'ze_auth',
-                            'action'     => 'register',
-                        ),
-                    ),
-                ),
-            ),
-        ),
-    ),
     'di' => array(
         'instance' => array(
             'alias' => array(

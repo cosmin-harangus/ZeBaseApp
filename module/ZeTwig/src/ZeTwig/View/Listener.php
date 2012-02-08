@@ -25,7 +25,7 @@ use ArrayAccess,
  */
 class Listener implements ListenerAggregate
 {
-    const TPL_EXTENSION = '.html';
+    const TPL_EXTENSION = '.twig';
     protected $layout;
     protected $listeners = array();
     protected $staticListeners = array();
