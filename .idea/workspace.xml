@@ -1,18 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/module/ZeUtils/clsmap.php" line="35" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="b60ce561-2e05-48fc-b746-179315545e93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/autoload/local.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/autoload/ze-auth.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeAuth/views/ze-auth-auth/index.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeDb/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeDb/Module.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeDb/config/module.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeTwig/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeTwig/autoload/classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeTwig/autoload/function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeTwig/autoload/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/ZeUtils/didef.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/Module.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/autoload_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/autoload_register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/config/module.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/src/Application/Controller/ErrorController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/src/Application/Controller/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/src/Application/View/Listener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/view/error/404.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/view/error/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/view/index/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/Application/view/layout/layout.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/DefaultTpl/Module.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/DefaultTpl/config/module.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/DefaultTpl/views/layouts/main_one_column.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/DefaultTpl/views/layouts/main_two_columns.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/ZeAuth/views/ze_auth/index.twig" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/projectquery.iml" afterPath="$PROJECT_DIR$/.idea/www.zf2.dev.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/Module.php" afterPath="$PROJECT_DIR$/core/Core/Module.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/autoload_classmap.php" afterPath="$PROJECT_DIR$/core/Core/autoload_classmap.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/autoload_function.php" afterPath="$PROJECT_DIR$/core/Core/autoload_function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/autoload_register.php" afterPath="$PROJECT_DIR$/core/Core/autoload_register.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/config/module.config.php" afterPath="$PROJECT_DIR$/core/Core/config/module.config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/src/Core/Controller/ErrorController.php" afterPath="$PROJECT_DIR$/core/Core/src/Core/Controller/ErrorController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/src/Core/Controller/IndexController.php" afterPath="$PROJECT_DIR$/core/Core/src/Core/Controller/IndexController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/views/error/404.twig" afterPath="$PROJECT_DIR$/core/Core/views/error/404.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/views/error/index.twig" afterPath="$PROJECT_DIR$/core/Core/views/error/index.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/views/index/index.twig" afterPath="$PROJECT_DIR$/core/Core/views/core-index/index.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Core/views/layouts/layout.twig" afterPath="$PROJECT_DIR$/core/Core/views/layouts/layout.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/Module.php" afterPath="$PROJECT_DIR$/core/ZeAuth/Module.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/autoload/classmap.php" afterPath="$PROJECT_DIR$/core/ZeAuth/autoload/classmap.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/autoload/function.php" afterPath="$PROJECT_DIR$/core/ZeAuth/autoload/function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/autoload/register.php" afterPath="$PROJECT_DIR$/core/ZeAuth/autoload/register.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" afterPath="$PROJECT_DIR$/core/ZeAuth/config/module.config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Controller/AuthController.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Controller/AuthController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Crypt.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Crypt.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Mapper.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Db/Mapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Mapper/User.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Db/Mapper/User.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Db/Model.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Db/Model/User.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Db/Model/User.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Event/Listener.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Event/Listener.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Exception.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Exception.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Form/Login.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Form/Login.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/src/ZeAuth/Service/Auth.php" afterPath="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Service/Auth.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeAuth/views/layouts/layout.twig" afterPath="$PROJECT_DIR$/templates/DefaultTpl/views/layouts/main.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/LICENSE" afterPath="$PROJECT_DIR$/core/ZeTwig/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/Module.php" afterPath="$PROJECT_DIR$/core/ZeTwig/Module.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/README.markdown" afterPath="$PROJECT_DIR$/core/ZeDb/README.markdown" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/autoload/classmap.php" afterPath="$PROJECT_DIR$/core/ZeDb/autoload/classmap.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/autoload/function.php" afterPath="$PROJECT_DIR$/core/ZeDb/autoload/function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/autoload/register.php" afterPath="$PROJECT_DIR$/core/ZeDb/autoload/register.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/config/module.config.php" afterPath="$PROJECT_DIR$/core/ZeTwig/config/module.config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Environment.php" afterPath="$PROJECT_DIR$/core/ZeTwig/src/ZeTwig/View/Environment.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/HelperFunction.php" afterPath="$PROJECT_DIR$/core/ZeTwig/src/ZeTwig/View/HelperFunction.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Listener.php" afterPath="$PROJECT_DIR$/core/ZeTwig/src/ZeTwig/View/Listener.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Loader.php" afterPath="$PROJECT_DIR$/core/ZeTwig/src/ZeTwig/View/Loader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Renderer.php" afterPath="$PROJECT_DIR$/core/ZeTwig/src/ZeTwig/View/Renderer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Autoloader.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Autoloader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Compiler.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Compiler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/CompilerInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/CompilerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Environment.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Environment.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Error.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Error.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Error/Loader.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Error/Loader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Error/Runtime.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Error/Runtime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Error/Syntax.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Error/Syntax.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/ExpressionParser.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/ExpressionParser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Extension.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Extension.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Extension/Core.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Extension/Core.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Extension/Debug.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Extension/Debug.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Extension/Escaper.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Extension/Escaper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Extension/Optimizer.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Extension/Optimizer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Extension/Sandbox.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Extension/Sandbox.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/ExtensionInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/ExtensionInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Filter.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Filter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Filter/Function.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Filter/Function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Filter/Method.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Filter/Method.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Filter/Node.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Filter/Node.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/FilterInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/FilterInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Function.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Function/Function.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Function/Function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Function/Method.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Function/Method.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Function/Node.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Function/Node.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/FunctionInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/FunctionInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Lexer.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Lexer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/LexerInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/LexerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Loader/Array.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Loader/Array.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Loader/Chain.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Loader/Chain.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Loader/Filesystem.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Loader/Filesystem.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Loader/String.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Loader/String.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/LoaderInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/LoaderInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Markup.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Markup.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/AutoEscape.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/AutoEscape.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Block.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Block.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/BlockReference.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/BlockReference.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Body.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Body.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Do.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Do.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Array.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Array.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/AssignName.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/AssignName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Add.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Add.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/And.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/And.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/BitwiseAnd.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/BitwiseAnd.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/BitwiseOr.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/BitwiseOr.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/BitwiseXor.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/BitwiseXor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Concat.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Concat.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Div.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Div.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Equal.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Equal.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/FloorDiv.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/FloorDiv.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Greater.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Greater.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/GreaterEqual.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/GreaterEqual.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/In.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/In.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Less.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Less.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/LessEqual.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/LessEqual.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Mod.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Mod.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Mul.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Mul.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/NotEqual.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/NotEqual.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/NotIn.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/NotIn.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Or.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Or.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Power.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Power.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Range.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Range.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Binary/Sub.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Binary/Sub.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/BlockReference.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/BlockReference.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Conditional.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Conditional.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Constant.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Constant.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/ExtensionReference.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/ExtensionReference.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Filter.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Filter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Filter/Default.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Filter/Default.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Function.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/GetAttr.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/GetAttr.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Name.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Name.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Parent.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Parent.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/TempName.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/TempName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Test.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Test.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Test/Constant.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Test/Constant.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Test/Defined.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Test/Defined.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Test/Divisibleby.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Test/Divisibleby.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Test/Even.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Test/Even.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Test/Null.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Test/Null.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Test/Odd.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Test/Odd.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Test/Sameas.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Test/Sameas.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Unary.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Unary.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Unary/Neg.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Unary/Neg.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Unary/Not.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Unary/Not.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Expression/Unary/Pos.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Expression/Unary/Pos.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Flush.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Flush.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/For.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/For.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/ForLoop.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/ForLoop.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/If.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/If.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Import.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Import.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Include.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Include.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Macro.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Macro.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Module.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Module.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Print.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Print.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Sandbox.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Sandbox.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/SandboxedModule.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/SandboxedModule.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/SandboxedPrint.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/SandboxedPrint.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Set.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Set.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/SetTemp.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/SetTemp.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Spaceless.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Spaceless.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Node/Text.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Node/Text.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/NodeInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/NodeInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/NodeOutputInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/NodeOutputInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/NodeTraverser.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/NodeTraverser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/NodeVisitor/Escaper.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/NodeVisitor/Escaper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/NodeVisitor/Optimizer.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/NodeVisitor/Optimizer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/NodeVisitor/SafeAnalysis.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/NodeVisitor/SafeAnalysis.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/NodeVisitor/Sandbox.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/NodeVisitor/Sandbox.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/NodeVisitorInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/NodeVisitorInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Parser.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Parser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/ParserInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/ParserInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Sandbox/SecurityError.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Sandbox/SecurityError.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Sandbox/SecurityPolicy.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Sandbox/SecurityPolicy.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Sandbox/SecurityPolicyInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Sandbox/SecurityPolicyInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Template.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TemplateInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TemplateInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Test/Function.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Test/Function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Test/Method.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Test/Method.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Test/Node.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Test/Node.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TestInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TestInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/Token.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/Token.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/AutoEscape.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/AutoEscape.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Block.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Block.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Do.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Do.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Extends.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Extends.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Filter.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Filter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Flush.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Flush.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/For.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/For.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/From.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/From.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/If.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/If.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Import.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Import.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Include.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Include.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Macro.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Macro.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Sandbox.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Sandbox.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Set.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Set.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Spaceless.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Spaceless.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParser/Use.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParser/Use.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParserBroker.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParserBroker.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParserBrokerInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParserBrokerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenParserInterface.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenParserInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeTwig/vendor/Twig/TokenStream.php" afterPath="$PROJECT_DIR$/core/ZeTwig/vendor/Twig/TokenStream.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/module/ZeUtils/clsmap.php" afterPath="$PROJECT_DIR$/core/ZeUtils/clsmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/global.config.php" afterPath="$PROJECT_DIR$/config/autoload/global.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" afterPath="$PROJECT_DIR$/config/autoload/ze_auth.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Core/views/layouts/layout.twig" afterPath="$PROJECT_DIR$/module/Core/views/layouts/layout.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" afterPath="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeTwig/autoload/classmap.php" afterPath="$PROJECT_DIR$/module/ZeTwig/autoload/classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Listener.php" afterPath="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Listener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/local.default.php" afterPath="$PROJECT_DIR$/config/autoload/local.default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <ignored path="projectquery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +246,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/Core/views/layouts/layout.twig">
+      <file leaf-file-name="didef.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/ZeUtils/didef.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="28" selection-start="608" selection-end="608" vertical-scroll-proportion="0.32178217">
+            <state line="14" column="27" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.di.config.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/ZeTwig/config/module.di.config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,22 +281,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/module/Core/views/layouts/layout.html" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/config/module.config.php" />
-        <option value="$PROJECT_DIR$/module/ZeTwig/src/ZeTwig/View/Listener.php" />
+        <option value="$PROJECT_DIR$/core/ZeTwig/Module.php" />
+        <option value="$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Mvc/Application.php" />
+        <option value="$PROJECT_DIR$/config/application.config.php" />
         <option value="$PROJECT_DIR$/config/autoload/ze_auth.config.php" />
-        <option value="$PROJECT_DIR$/config/autoload/local.config.php" />
-        <option value="$PROJECT_DIR$/config/autoload/local.default.php" />
-        <option value="$PROJECT_DIR$/config/autoload/global.config.php" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/views/ze_auth/layout.twig" />
-        <option value="$PROJECT_DIR$/module/Core/views/layouts/login_form.twig" />
-        <option value="$PROJECT_DIR$/module/ZeAuth/views/ze_auth/index.twig" />
-        <option value="$PROJECT_DIR$/module/ZeTwig/README.markdown" />
-        <option value="$PROJECT_DIR$/module/ZeTwig/LICENSE" />
-        <option value="$PROJECT_DIR$/module/ZeUtils/generated/classmap.php" />
-        <option value="$PROJECT_DIR$/module/ZeTwig/autoload/classmap.php" />
-        <option value="$PROJECT_DIR$/module/ZeUtils/clsmap.php" />
-        <option value="$PROJECT_DIR$/module/Core/views/layouts/layout.twig" />
+        <option value="$PROJECT_DIR$/core/Core/views/layouts/layout.twig" />
+        <option value="$PROJECT_DIR$/core/ZeAuth/Module.php" />
+        <option value="$PROJECT_DIR$/config/autoload/ze-auth.config.php" />
+        <option value="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Controller/AuthController.php" />
+        <option value="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Db/Model/User.php" />
+        <option value="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Db/Mapper/User.php" />
+        <option value="$PROJECT_DIR$/core/ZeAuth/config/module.config.php" />
+        <option value="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Event/Listener.php" />
+        <option value="$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Service/Auth.php" />
+        <option value="$PROJECT_DIR$/core/Core/config/module.config.php" />
+        <option value="$PROJECT_DIR$/core/ZeDb/autoload/classmap.php" />
+        <option value="$PROJECT_DIR$/core/ZeDb/config/module.config.php" />
       </list>
     </option>
   </component>
@@ -83,12 +304,13 @@
     <include_path>
       <path value="." />
       <path value="G:\#local\vendor\ZendFramework2\library" />
+      <path value="$PROJECT_DIR$/../vendor" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1280" />
-    <option name="height" value="776" />
+    <option name="x" value="1" />
+    <option name="width" value="1278" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -132,31 +354,59 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DefaultTpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.zf2.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -166,137 +416,56 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="ZeUtils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
+              <option name="myItemId" value="www.zf2.dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.PHP" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="ProjectQuery" serverId="c5e4ec2b-1959-431e-a313-20a5a6cf393c" />
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/module/ZeAuth/views/ze_auth" />
-      <recent name="$PROJECT_DIR$/config/autoload" />
-      <recent name="$PROJECT_DIR$/module" />
-      <recent name="G:\#local\projectquery\config\autoload" />
-      <recent name="G:\#local\projectquery\module\ZeAuth\src\ZeAuth\Db\Mapper" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/modules" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/templates/DefaultTpl/views/layouts" />
+      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -377,25 +546,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1280" height="776" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="0" width="1278" height="773" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49715677" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27597404" sideWeight="0.9542683" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262195" sideWeight="0.49715677" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32511556" sideWeight="0.49715677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="101" y="100" width="1078" height="573" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -457,84 +627,94 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/config/module.config.php">
+    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Mvc/Router/Http/TreeRouteStack.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="685" selection-end="685" vertical-scroll-proportion="0.3809524" />
+        <state line="61" column="6" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-4.7540984" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/local.default.php">
+    <entry file="file://$PROJECT_DIR$/core/ZeAuth/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="95" selection-start="338" selection-end="338" vertical-scroll-proportion="0.1904762" />
+        <state line="38" column="14" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.9149278" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/README.md">
+    <entry file="file://$PROJECT_DIR$/config/autoload/ze-auth.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="364" selection-end="364" vertical-scroll-proportion="0.16666667" />
+        <state line="19" column="28" selection-start="477" selection-end="477" vertical-scroll-proportion="0.4574639" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/global.config.php">
+    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/View/Helper/Url.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="427" selection-end="427" vertical-scroll-proportion="0.33333334" />
+        <state line="116" column="58" selection-start="3580" selection-end="3623" vertical-scroll-proportion="0.852459" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/local.config.php">
+    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Http/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="498" selection-end="498" vertical-scroll-proportion="0.26190478" />
+        <state line="84" column="27" selection-start="1759" selection-end="1759" vertical-scroll-proportion="-1.290164" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/ze_auth.config.php">
+    <entry file="file://$PROJECT_DIR$/../vendor/ZendFramework2/library/Zend/Http/PhpEnvironment/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.26190478" />
+        <state line="72" column="33" selection-start="1455" selection-end="1468" vertical-scroll-proportion="1.7704918" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/views/ze_auth/index.twig">
+    <entry file="file://$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Service/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="100" column="13" selection-start="3012" selection-end="3012" vertical-scroll-proportion="0.56557375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeTwig/README.markdown">
+    <entry file="file://$PROJECT_DIR$/core/Core/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.1904762" />
+        <state line="16" column="14" selection-start="576" selection-end="576" vertical-scroll-proportion="0.38523275" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeTwig/LICENSE">
+    <entry file="file://$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Controller/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" />
+        <state line="20" column="12" selection-start="549" selection-end="549" vertical-scroll-proportion="0.48154092" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ProjectQuery/library/Controller/ActionController.php">
+    <entry file="file://$PROJECT_DIR$/core/ZeAuth/src/ZeAuth/Event/Listener.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="44" column="18" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.7295082" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeTwig/autoload/classmap.php">
+    <entry file="file://$PROJECT_DIR$/core/ZeDb/autoload/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="54" selection-end="54" vertical-scroll-proportion="0.023809524" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeUtils/clsmap.php">
+    <entry file="file://$PROJECT_DIR$/core/ZeDb/autoload/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="18" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.7380952" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZeAuth/autoload/classmap.php">
+    <entry file="file://$PROJECT_DIR$/core/ZeDb/autoload/classmap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="5" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.12038523">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/cache/twig/0f/b0/ffbb7dc728bd67c4e021f6dbf463.php">
+    <entry file="file://$PROJECT_DIR$/core/ZeDb/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="758" selection-end="758" vertical-scroll-proportion="0.024311183" />
+        <state line="6" column="14" selection-start="184" selection-end="184" vertical-scroll-proportion="0.14446227">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/html5.js">
+    <entry file="file://$PROJECT_DIR$/core/ZeUtils/didef.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="56" selection-start="171" selection-end="171" vertical-scroll-proportion="0.048622366" />
+        <state line="14" column="27" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Core/views/layouts/layout.twig">
+    <entry file="file://$PROJECT_DIR$/core/ZeTwig/config/module.di.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="608" selection-end="608" vertical-scroll-proportion="0.32178217">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

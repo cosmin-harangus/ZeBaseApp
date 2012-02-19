@@ -12,9 +12,9 @@ Zend\Loader\AutoloaderFactory::factory(array(
         'namespaces' => array(
             'Ze' => BASE_PATH.'/vendor/Ze/',
         ),
-//        'prefixes' =>array(
-//            'Twig' =>  BASE_PATH.'/vendor/Twig/',
-//        )
+        'prefixes' =>array(
+            'Twig' =>  BASE_PATH.'/vendor/Twig/',
+        )
     ),
 
 ));
@@ -32,8 +32,8 @@ $moduleManager = new Zend\Module\Manager($appConfig['modules']);
 $moduleManager->events()->attachAggregate($defaultListeners);
 $moduleManager->loadModules();
 
-// Create application, bootstrap, and run
-$bootstrap   = new Zend\Mvc\Bootstrap($defaultListeners->getConfigListener()->getMergedConfig());
-$application = new Zend\Mvc\Application;
-$bootstrap->bootstrap($application);
-$application->run()->send();
+//// Create application, bootstrap, and run
+//$bootstrap   = new Zend\Mvc\Bootstrap($defaultListeners->getConfigListener()->getMergedConfig());
+//$application = new Zend\Mvc\Application;
+//$bootstrap->bootstrap($application);
+//$application->run()->send();

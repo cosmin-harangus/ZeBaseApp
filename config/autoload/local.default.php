@@ -11,6 +11,7 @@
 
 return array(
     'di' => array(
+        'definition'=>'',
         'instance'=>array(
             'Zend\Db\Adapter\PdoMysql' => array(
                 'parameters' => array(
