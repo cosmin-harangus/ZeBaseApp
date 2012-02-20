@@ -15,35 +15,80 @@ foreach ($components as $component) {
     $diCompiler->compile();
     $classes = $diCompiler->toArrayDefinition()->toArray();
     $definitions = array();
-    foreach($classes as $kclass =>$class){
-        $definition = array(
-//            'supertypes' => $class['supertypes'],
-//            'instantiator' => $class['instantiator'],
-//            'methods' => $class['methods'],
-        );
-        $parameters = array();
-        foreach( $class['parameters'] as $kparams => $params){
-            $param = array();
-            foreach ($params as $k=>$v) {
-                $param[$v[0]] = array(
-                    'type'=> $v[1],
-                    'required'=> $v[2],
-                );
+    ob_start();
+    echo <<<END
+<?php
+return array(
+    'di' => array(
+        'definition' => array(
+            'class' => array(
+
+END;
+
+            foreach($classes as $kclass =>$class){
+                $clsName = addslashes($kclass);
+                echo <<<END
+                '$clsName' => array(
+
+END;
+                $parameters = array();
+                foreach( $class['parameters'] as $kparams => $params){
+                    $methodName = addslashes($kparams);
+                    echo <<<END
+                    '$methodName' => array(
+
+END;
+
+                    $param = array();
+                    foreach ($params as $k=>$v) {
+                        $prmName = addslashes($v[0]);
+                        $prmType = ($v[1]?"'".addslashes($v[1])."'":'null');
+                        $prmReq = ($v[2]?'true':'false');
+                        echo <<<END
+                        '$prmName' => array(
+                            'type' => $prmType,
+                            'required' => $prmReq,
+                        ),
+
+END;
+                        $param[$v[0]] = array(
+                            'type'=> $v[1],
+                            'required'=> $v[2],
+                        );
+                    }
+                    $parameters[$kparams] = $param;
+                    echo <<<END
+                    ),
+
+END;
+
+                }
+        //        $definition['parameters'] = $parameters;
+                $definitions[$kclass] = $parameters;
+                echo <<<END
+                ),
+
+END;
             }
-            $parameters[$kparams] = $param;
-        }
-//        $definition['parameters'] = $parameters;
-        $definitions[$kclass] = $parameters;
-    }
+    echo <<<END
+            ),
+        ),
+    ),
+);
+END;
+
+    $contents = ob_get_contents();
+    ob_clean();
     file_put_contents(
         __DIR__ . '/../'.$module.'/config/' . 'module.di.config.php',
-        '<?php return ' . var_export(array(
-                'di'=>array(
-                    'definition'=>array(
-                        'class'=> $definitions
-                    )
-                )
-            ), true
-        ) . ';'
+        $contents
+//        '<?php return ' . var_export(array(
+//                'di'=>array(
+//                    'definition'=>array(
+//                        'class'=> $definitions
+//                    )
+//                )
+//            ), true
+//        ) . ';'
     );
 }
