@@ -99,7 +99,7 @@ class __TwigTemplate_61d708b36aa22b0923c43eddae31b2c3 extends Twig_Template
                 <footer>
                     <p>&copy; 2006 - ";
         // line 39
-        echo twig_escape_filter($this->env, date("Y"), "html", null, true);
+        echo twig_escape_filter($this->env, twig_date_converter($this->env, "Y"), "html", null, true);
         echo " by Around25 Srl. All rights reserved.</p>
                 </footer>
             </div> <!-- /container -->
